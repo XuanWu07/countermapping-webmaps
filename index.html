@@ -81,7 +81,14 @@
     }
   })
 });
-    
+
+   map.on('load',function(){map.addSource('public_housing_layer',// Give the layer's source a nickname "public_housing_layer"
+   	{'type':'vector','url':'mapbox://xuanwu07.8y3s01p0'});
+   map.addLayer({'id':'public_housing','type':'fill','source':'public_housing_layer','source-layer':'Map_of_NYCHA_Developments-2l59yw','paint':
+   	{'fill-color':'#e0b526',// Pick the yellow color for this layer
+   	'fill-opacity':0.8 // The opacity of this layer is 80%
+   }})
+})
 </script>
 
 </body>
