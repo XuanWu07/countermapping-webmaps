@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#map {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 80%;} 
+#toolbar{
+  position: fixed;
+  top:0;
+  bottom: 0;
+  left: 80%;
+}
+#title{
+  margin-left:15px;
+  margin-right: 15px;
+}
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+#restName{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+#restText{
+  margin-left: 15px;
+  margin-right: 15px;
+}
