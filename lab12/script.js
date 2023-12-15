@@ -66,7 +66,7 @@ if (config.para1) {
 
 if (config.para2) {
     var bylineText = document.createElement('p');
-    bylineText.innerText = config.para1;
+    bylineText.innerText = config.para2;
     header.appendChild(bylineText);
 }
 
